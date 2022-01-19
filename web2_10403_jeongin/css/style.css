@@ -185,7 +185,7 @@
  #sub1-d:checked ~ #sub1-d-content,
  #sub2-d:checked ~ #sub2-d-content,
  #sub3-d:checked ~ #sub3-d-content,
- #sub4-d:checked ~ #sub4-d-content{
+ #sub4-d:checked ~ #sub4-d-content {
      display: block;
  }
 
@@ -297,6 +297,17 @@
      bottom: 0;
  }
 
+ .slide-img {
+     width: 100%;
+     margin: auto;
+     margin-top: 130px;
+     position: relative;
+ }
+
+ .slide-img img {
+     display: block;
+     width: 100%;
+ }
 
  @media screen and (max-width:480px) {
 
@@ -326,5 +337,22 @@
          display: none;
      }
 
+     .slide-img {
+         margin-top: 60px;
+     }
 
  }
+
+.slide-text {
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+    padding: 20px;
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+    position: absolute;
+}
+
+.slide-text p{
+    color: white;
+}
