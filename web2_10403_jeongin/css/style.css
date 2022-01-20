@@ -533,8 +533,9 @@ footer{
 }
 
 .copyright {
-    margin: auto 0;
+    align-self: center;
     font-size: 14px;
+    
 }
 .copyright p{
     margin: 0;
@@ -609,7 +610,7 @@ footer{
 
 .time-line {
     width: 100%;
-    margin: auto;
+    margin: 40px auto;
 }
 
 .line {
@@ -669,9 +670,14 @@ footer{
     justify-content: space-evenly;
 }
 
-.logo-bt {
-    float: left;
-}
+
 
 .footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.banner-img {
+    align-self: center;
 }
