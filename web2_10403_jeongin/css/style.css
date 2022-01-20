@@ -399,6 +399,7 @@
  .title {
      font-weight: bold;
      margin: 8px;
+     text-align: center;
  }
 
  .popup {
@@ -423,7 +424,7 @@
 
  .event {
      margin: auto;
-     margin-top: 20px;
+     margin-top: 30px;
      width: 85%;
  }
 
@@ -452,7 +453,7 @@
  }
 
  .card-title {
-     font-size: 20px;
+     font-size: 18px;
      margin: 14px 0;
  }
 
@@ -491,7 +492,53 @@
      color: white;
  }
 
+.banner {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
 
+footer{
+    width: 100%;
+}
+
+.footer-top {
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+    background: #CFD6DB;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.footer-menu a{
+    text-align: center;
+    font-size: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    color: black;
+}
+.footer-menu a p{
+    margin: 0;
+}
+.footer-menu a:hover{
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background: #DEE4EA;
+}
+
+.copyright {
+    margin: auto 0;
+    font-size: 14px;
+}
+.copyright p{
+    margin: 0;
+}
 
  @media screen and (max-width:480px) {
 
@@ -558,4 +605,73 @@
 .d-day {
     color: var(--main-color);
     font-weight: bold;
+}
+
+.time-line {
+    width: 100%;
+    margin: auto;
+}
+
+.line {
+    width: 5px;
+    height: 480px;
+    background: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: var(--main-color);
+}
+
+.time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-card {
+    box-shadow: 0 4px 10px -4px black;
+    border-radius: 10px;
+    width: 20vw;
+}
+
+.time-box{
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.time-body {
+    list-style: square;
+    list-style-position: inside;
+    padding: 14px;
+    margin: 0;
+    font-size: 13px;
+}
+
+.time-header {
+    background: var(--main-color);
+    color: white;
+    padding: 8px 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box-lt {
+    justify-content: space-evenly;
+}
+
+.logo-bt {
+    float: left;
+}
+
+.footer-content {
 }
